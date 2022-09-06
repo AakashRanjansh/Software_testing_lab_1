@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int balance = 50000, pin = 8754, pin_limit = 0, type_times = 0;
-        String acc_typ = "Current";
+        String acc_typ = "Saving";
         int withdraw, deposit;
         Scanner in = new Scanner(System.in);
         System.out.println("\t****Welcome to Everest bank ATM!****\n");
